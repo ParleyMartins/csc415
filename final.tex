@@ -4,11 +4,11 @@
 \usepackage{graphicx}
 \usepackage{listings}
 \usepackage{float}
+\usepackage{hyperref}
+
 \lstset{
    breaklines=true,
    basicstyle=\ttfamily}
-
-\input{commands}
 
 \begin{document}
 
@@ -24,7 +24,7 @@ University of Alberta, Augustana Faculty
 \vspace*{0.75\baselineskip}
 
 \noindent
-{\Large\bf Case Study: elearning tools for computing science}
+{\Large\bf Case Study: Elearning Tools for Computing Science}
 
 %%%%%%%%%%%%
 \section{Introduction}
@@ -61,15 +61,37 @@ To get it running for the first time, do the following steps:
 
 \begin{enumerate}
 
-\item Assuming you have an account on GitHub, create an organization (we will be using AUCSC415).
+\item Assuming you have an account on GitHub, create an organization (we will be using AUCSC415 from now on to relate to an specific organization. Yours can have any name you want).
 
-\item Create an repository with the base code that your students will use. This is not a required step, however you don't have any other space to explain what is required from your students. A good practice is to describe it in you README.md file.
+\item Access \href{https://classroom.github.com}{Classroom} with your GitHub credentials. 
+
+\item Click on `Create your first classroom'. After clicking here you will need to grant access to one or more of your organizations. If you didn't create an organization in the previous step, you need to create one now.
+
+\item Select AUCSC415. Change the name if you want. This is NOT the organization name, so you can add spaces and give a more descriptive name to it.
+
+\item Follow the intructions on the screen if you want to add other administrators to this classroom.
 
 \end{enumerate}
 
+Now you have a classroom to manage your assignments and students. After doing that, you must create assignments.
+
+\begin{enumerate}
+
+\item In your GitHub Organization, create a repository with the base code that your students will use. This is not a required step, however you don't have any other space to explain what is required from your students. A good practice is to give any needed instructions in your README file, even if you don't have an initial code for your students.
+
+\item Go to your classroom in GitHub Classroom and click on `Create your first assignment'. You can choose an individual or a group assignment. Group assignments can have a maximum number of people participating on them. This example will use individual assignment.
+
+\item Give it a title and the repository where your starter code is. You can create private repositories depending on your GitHub plan.
+
+\item Give the shown link to your students. 
+
+\end{enumerate}
+
+Once your students accept the request to create their assignments, a new repository (assignment-name-UserName) will be created in your organization.
+
 \subsection{Moodle}
 
-Moodle is well known e-lerning tool. It allows you to create your own courses and manage them with a lot of options in the most varied content. Moodle is also open source and can be customized as required.
+Moodle is a well known e-lerning tool. It allows you to create your own courses and manage them with a lot of options in the most varied content. Moodle is also open source and can be customized as required.
 
 
 %%%%%%%%%%%%
