@@ -55,7 +55,7 @@ Implement the Algorithm X (\ref{bib:dancing_links}) in any chosen language and a
 
 \subsection{GitHub Classroom}
 
-GitHub Classroom is a tool that allows users to create virtual environments, classrooms, and set assignments based on GitHub. The instructor can create group and individual assignments and follow up on the changes they made (throughout all the process). It's an open source software and anyone can have their own server running it. For this example a local copy of Classroom was used.
+GitHub Classroom is a tool that allows users to create virtual environments, classrooms, and set assignments based on GitHub. The instructor can create group and individual assignments and follow up on the changes they made (throughout all the process). It's an open source software and anyone can have their own server running it. The official GitHub Classroom build was used on this comparison.
 
 To get it running for the first time, do the following steps:
 
@@ -92,16 +92,47 @@ Once your students accept the request to create their assignments, a new reposit
 
 \subsection{Moodle}
 
-Moodle is a well known e-learning tool. It allows you to create your own courses and manage them with a lot of options in the most varied content. Moodle is also open source and can be customized as required.
+Moodle is a well known e-learning tool. It allows you to create your own courses and manage them with a lot of options in the most varied content. It is also open source and can be customized as required. The UofA eClass (version 2.8) was used to for this example.
+
+To replicate the following steps your must have access to Moodle and be able to edit at least one course. \url{Moodle.com} provides a demo section if you like to test them.
+
+Create a new assignment in your course by doing the following:
+
+\begin{enumerate}
+
+\item Create a new topic or choose an existing one in your course and turn edit on.
+
+\item Click on `Add an activity or resource` and choose Assignment
+
+\item Add any desired configuration like deadline, the necessity of pressing a submit button, the grading system. 
+
+\end{enumerate}
+
+After these steps, if your assignment was created on a public topic, it will be available to your students and they can submit their work according to the configurations you have set. If the topic is not available, your students won't be able to see this assignment.
 
 
 %%%%%%%%%%%%
 \section{Results}
 
+\subsection{Assignment Creation}
+
+To create anything in Moodle is a painful process. There are a lot of options and similar commands, and if you never used it before, it will take a good time to figure out how things work. It couldn't find a way to create a new topic, so I used an existing one and it still took me a few minutes to find a way to edit it and change its name.
+
+To get on the `New Assignment` page was easier, but once there, there are so many options that you end up getting lost on what is better or what you should do. The standard configuration, however, gives an assignment that allows students to upload one single file with only one attempt.
+
+In the other hand, it was way easier to create an assignment on GitHub Classroom. Once you have your classroom set up, the only options are create a group or individual assignment. No topics, no other divisions, no further options.
+
+\subsection{Starter code}
+
 Giving starter code to students is sometimes totally necessary to an assignment. The easy way this is done in GitHub Classroom is a benefit for this system. Despite that, once a student has accepted a request, it's not possible to change the initial code anymore, so that's a negative point for Classroom. If you do change it students that have accepted before that will have outdated code (or instructions).
 
-Another positive aspect of Classroom is that it allows the instructor to see the code anytime.
+\subsection{Follow up on progress}
 
+Another positive aspect of Classroom is that it allows instructors to see the code anytime they want.
+
+\subsection{Submitting}
+
+\subsection{Grading}
 
 %%%%%%%%%%%%
 \section{Conclusion}
