@@ -6,6 +6,14 @@
 \usepackage{float}
 \usepackage{hyperref}
 
+\usepackage[
+backend=biber,
+style=ieee,
+sorting=none,
+citestyle=ieee
+]{biblatex}
+\addbibresource{references.bib}
+
 \lstset{
    breaklines=true,
    basicstyle=\ttfamily}
@@ -43,7 +51,7 @@ To know a programming language makes it easier to understand this paper, but it'
 
 \subsection{Git}
 
-Git is a popular Distributed Version Control System (DVCS). It stores a local copy of your repository making it really fast and powerful. Almost all operations are offline and it's easier to create or merge branches. \ref{bib:git}
+Git is a popular Distributed Version Control System (DVCS). It stores a local copy of your repository making it really fast and powerful. Almost all operations are offline and it's easier to create or merge branches. \cite{git}
 
 
 %%%%%%%%%%%%
@@ -51,7 +59,7 @@ Git is a popular Distributed Version Control System (DVCS). It stores a local co
 
 To compare both tools the following example assignment will be used: 
 
-Implement the Algorithm X (\ref{bib:dancing_links}) in any chosen language and analyze how this approach can be better than the regular backtracking.
+Implement the Algorithm X (\cite{dancinglinks}) in any chosen language and analyze how this approach can be better than the regular backtracking.
 
 \subsection{GitHub Classroom}
 
@@ -151,6 +159,9 @@ One more time Moodle shows why it's one of the most used e-learning tools in the
 
 GitHub Classroom is still very new (not even one year old) and because of that, it doesn't have a lot to offer. The idea is good and needed, but they didn't have time to implement everything a teacher requires when using such a tool. As shown in the results it has a very simple and intuitive interface, but it's still very incomplete.
 
-Moodle is a tool that has millions of users and thousands of contributors all over the world. They worked and keep working to make plugins and improve the core features since 2002, what has led to a very robust and powerful tool. However it's not the right tool to check the how people are doing stuff. It focus on the final product (as usually in school) and the process to get there can't be seen.
+Moodle is a tool that has millions of users \cite{moodlestats} and hundreds of contributors all over the world.\cite{moodledev} They worked and keep working to make plugins and improve the core features since 2002, what has led to a very robust and powerful tool. However it's not the right tool to check the how people are doing stuff. It focus on the final product (as usually in school) and the process to get there can't be seen.
 
+If the main purpose of the teacher is to evaluate how a student is doing something, focused on making the creation process clearer and clarifying doubts about the new technique that is being taught, he or she should use GitHub Classroom. If a more traditional approach is used and just the final code matters, a instructor should use Moodle. Grading and submitting assignments are very powerful Moodle modules and they meet most of the necessities a teacher has concerning those issues.
+
+\printbibliography %Prints bibliography
 \end{document}
